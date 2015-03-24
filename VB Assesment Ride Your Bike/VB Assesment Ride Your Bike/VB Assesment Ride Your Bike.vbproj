@@ -135,6 +135,55 @@
   <ItemGroup>
     <None Include="Resources\Bike-loaded.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aplause.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cricket.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameLoaded.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOver.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnYourMarks.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bike-Chop-chop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bike-normal-lap.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bike-tree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bike-Lap-with-Axe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bicycle-bell.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

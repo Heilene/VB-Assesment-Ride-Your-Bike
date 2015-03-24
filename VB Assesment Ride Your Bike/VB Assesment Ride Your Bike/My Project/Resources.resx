@@ -136,4 +136,34 @@
   <data name="Bike_loaded" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bike-loaded.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="aplause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aplause.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bicycle_bell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bicycle-bell.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bike_Chop_chop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bike-Chop-chop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bike_Lap_with_Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bike-Lap-with-Axe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bike_normal_lap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bike-normal-lap.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bike_tree1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bike-tree.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cricket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cricket.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GameLoaded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameLoaded.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameOver.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnYourMarks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnYourMarks.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
