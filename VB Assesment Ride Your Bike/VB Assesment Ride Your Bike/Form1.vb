@@ -44,7 +44,7 @@
 
     Private Sub btnFire_Click(sender As Object, e As EventArgs) Handles btnFire.Click
         'Calls the start your lap method from class
-        myRide.StartALap()
+        Dim stuff As Integer = myRide.StartALap()
 
         pbRide.Image = myRide.BikeImage
 
