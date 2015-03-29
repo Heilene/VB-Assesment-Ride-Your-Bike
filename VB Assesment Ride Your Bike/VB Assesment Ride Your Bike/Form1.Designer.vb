@@ -132,9 +132,10 @@ Partial Class Form1
         'cbAxe
         '
         Me.cbAxe.AutoSize = True
+        Me.cbAxe.Cursor = System.Windows.Forms.Cursors.Default
         Me.cbAxe.Location = New System.Drawing.Point(24, 50)
         Me.cbAxe.Name = "cbAxe"
-        Me.cbAxe.Size = New System.Drawing.Size(128, 29)
+        Me.cbAxe.Size = New System.Drawing.Size(77, 15)
         Me.cbAxe.TabIndex = 0
         Me.cbAxe.Text = "YES PLEASE!"
         Me.cbAxe.UseVisualStyleBackColor = True
@@ -213,7 +214,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(884, 511)
+        Me.ClientSize = New System.Drawing.Size(885, 513)
         Me.Controls.Add(Me.lblLapCounter)
         Me.Controls.Add(Me.pbRide)
         Me.Controls.Add(Me.GroupBox2)
@@ -222,8 +223,9 @@ Partial Class Form1
         Me.Controls.Add(Me.btnResetGame)
         Me.Controls.Add(Me.btnSpin)
         Me.Controls.Add(Me.bntLoad)
+        Me.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Name = "Form1"
-        Me.Text = "s"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

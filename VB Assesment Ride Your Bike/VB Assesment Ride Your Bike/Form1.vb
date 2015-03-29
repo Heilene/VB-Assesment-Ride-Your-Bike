@@ -11,7 +11,7 @@
 
     Private Sub LoadAndReset(sender As Object, e As EventArgs) Handles bntLoad.Click, btnResetGame.Click
 
-        'Resets game to default values on either load or reset
+        'Resets game to default values on either load or reset buttons
         myRide.Reset()
 
         'calls method to load/reset game 
@@ -44,8 +44,9 @@
 
     Private Sub btnFire_Click(sender As Object, e As EventArgs) Handles btnFire.Click
         'Calls the start your lap method from class
-        Dim stuff As Integer = myRide.StartALap()
+        myRide.StartALap()
 
+        'Displays image result according to winning, loss, defaul or with axe
         pbRide.Image = myRide.BikeImage
 
         lblLapCounter.Text = myRide.LapCounterDisplay
@@ -54,9 +55,8 @@
         cbAxe.Checked = False
 
         'Disable Fire button after all random numbers have been used up
+        'Activate timer
         If myRide.RandomNumber = 0 And myRide.GameOver = 1 Then
-            '  MsgBox(myRide.ResultMessage)
-
             Timer1.Enabled = True
             btnFire.Enabled = False
         End If
@@ -89,7 +89,7 @@
 
     End Sub
 
-    'Handels delayed message display box and win and lose counter
+    'Timer handels delayed message display box and win and lose counter
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 
         Static secondsCounter As Integer
